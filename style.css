@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    overflow-x: hidden;
+    margin: 10rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* header style */
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    margin-left: 25rem;
+    margin-bottom: 5rem;
+    gap: 18rem; 
+}
+header div{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+header div span{
+    margin-left: 3px;
+    color: rgb(255, 223, 175);
+    font-size: 2.5rem;
+}
+header nav ul{
+    display: flex;
+    gap: 2rem;  
+    font-size: 1.1rem;
+}
+header nav ul li{
+    list-style: none;
+}
+
+
+/* Main content: section-1 */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+    margin: 3rem; 
+    margin-bottom: 12rem; 
+}
+main .section-1 .intro{
+    font-size: 3rem;
+    font-weight: bold;
+}
+main .section-1 .intro .hey{
+    color: grey;
+    font-size: 1.7rem;
+}
+main .section-1 .intro div{
+    margin-top: 1.2rem;
+}
+main .section-1 .intro .studio{
+    color: rgb(255, 203, 126);
+}
+main .section-1 .intro p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(163, 163, 163);
+}
+main .section-1 .intro button{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 203, 126);
+    border: none;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+main .section-1 .intro button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+main .photomatch{
+    display: flex;
+    position: relative;
+}
+main .photomatch p{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: static;
+    border: 1px solid rgb(226, 226, 226);
+}
+main .photomatch .img-1{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: -4% ;
+    z-index: 8;
+}
+main .photomatch .img-2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -20%;
+    right:60%;
+}
+
+
+/* Main content: section-2 */
+
+
+main .section-2{
+    display: flex;
+    gap: 3rem;
+    background-color: rgb(219, 219, 219);
+    padding: 3rem;
+    border-radius: 4rem;
+    place-content: center;
+    width: auto;
+    padding: 5rem;
+}
+main .section-2 .sec2-img{
+    width: 350px;
+    height: 450px;
+    border-radius: 4rem;
+}
+main .section-2 .head-text{
+    display: flex;
+    place-content: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+main .section-2 .head-text p{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+main .section-2 .head-text div .p-p{
+    font-size: 1rem;
+    color: #949494;
+}
+main .section-2 .head-text p span{
+    margin-left: 1rem;
+    color: rgb(53, 199, 150);
+    font-weight: bolder;
+}
+main .section-2 .glad{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+main .section-2 .service{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+/* Recent projects */
+
+
+.recent{
+    margin-top: 3rem;
+    width: auto;
+    display: flex;
+    place-content: center;
+    gap: 35rem;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.recent p{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-wrap: nowrap;
+}
+.recent button{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 203, 126);
+    border: none;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.recent button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/*  section 3*/
+
+
+main .section-3{
+    width: auto;
+    display: flex;
+    place-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+main .section-3 img{
+    height: 800px;
+    width: 600px;
+    border-top-left-radius:2rem ;
+    border-bottom-left-radius:2rem;
+}
+main .section-3 .sec-3-img{
+    border-top-right-radius:2rem ;
+    border-bottom-right-radius:2rem;
+}
+main .section-3 .keeper{
+    font-size: 2rem;
+    font-weight: bold;
+}
+main .section-3 .lumy{
+    font-size: 2rem;
+    font-weight: bold;
+}
+main .section-3 .googleapis{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+
+/* why hire us */
+
+
+.why-hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+}
+
+
+
+
+/*  section 4 */
+
+
+main .section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%; 
+}
+main .section-4 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+main .section-4 img{
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+}
+main .section-4 .top{
+    text-align: center;
+    font-size: 1.5rem; 
+}
+main .section-4 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+
+
+/* section 5 */
+
+
+main .section-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: rgb(255, 203, 126);
+    width: 80%;
+    padding: 5rem ;
+    height:10rem ;
+    border-radius: 2rem;
+    gap: 10rem;
+
+}
+main .section-5 p{
+    font-size: 2rem;
+    color: white;   
+    text-wrap: nowrap;
+}
+main .section-5 button{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+main .section-5 a{
+    display: flex;
+    align-items: self-end;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+
+
