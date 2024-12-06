@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 240, 240);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 10rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -312,6 +312,7 @@ main .section-5{
     height:10rem ;
     border-radius: 2rem;
     gap: 10rem;
+    margin-bottom: 5rem;
 
 }
 main .section-5 p{
