@@ -12,7 +12,6 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 240, 240);
-    /* overflow-x: hidden; */
     margin: 10rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -23,6 +22,8 @@ body{
 
 header{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     margin-top: 1.5rem;
     margin-left: 25rem;
@@ -135,11 +136,12 @@ main .photomatch .img-2{
 
 main .section-2{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 3rem;
     background-color: rgb(219, 219, 219);
     padding: 3rem;
     border-radius: 4rem;
-    place-content: center;
     width: auto;
     padding: 5rem;
 }
@@ -184,9 +186,9 @@ main .section-2 .service{
     margin-top: 3rem;
     width: auto;
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     gap: 35rem;
-    justify-content: space-between;
     align-items: self-end;
 }
 .recent p{
@@ -307,7 +309,7 @@ main .section-5{
     align-items: center;
     margin-top: 5rem;
     background-color: rgb(255, 203, 126);
-    width: 80%;
+    width: 55%;
     padding: 5rem ;
     height:10rem ;
     border-radius: 2rem;
