@@ -12,9 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 240, 240);
-    margin: 10rem;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 /* header style */
@@ -41,6 +40,8 @@ header div span{
 }
 header nav ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;  
     font-size: 1.1rem;
 }
@@ -49,7 +50,7 @@ header nav ul li{
 }
 
 
-/* Main content: section-1 */
+/* Main content */
 
 main{
     display: flex;
@@ -57,6 +58,11 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+
+/* Main content: section-1 */
+
+
 main .section-1{
     display: flex;
     justify-content: center;
@@ -138,16 +144,15 @@ main .section-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 6rem;
     background-color: rgb(219, 219, 219);
     padding: 3rem;
     border-radius: 4rem;
-    width: auto;
     padding: 5rem;
 }
 main .section-2 .sec2-img{
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 500px;
     border-radius: 4rem;
 }
 main .section-2 .head-text{
@@ -183,13 +188,11 @@ main .section-2 .service{
 
 
 .recent{
-    margin-top: 3rem;
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 35rem;
-    align-items: self-end;
+    margin-top: 3rem;
 }
 .recent p{
     font-size: 3rem;
@@ -215,19 +218,19 @@ main .section-2 .service{
 }
 
 
-/*  section 3*/
+/* Main content: section 3*/
 
 
 main .section-3{
-    width: auto;
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     gap: 3rem;
     margin-top: 3rem;
 }
 main .section-3 img{
     height: 800px;
-    width: 600px;
+    width: 550px;
     border-top-left-radius:2rem ;
     border-bottom-left-radius:2rem;
 }
@@ -258,33 +261,33 @@ main .section-3 .googleapis{
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
+    margin-bottom: 4rem;
     font-size: 3rem;
     font-weight: bold;
-    width: 50%;
 }
 
 
 
 
-/*  section 4 */
+/* Main-content: section 4 */
 
 
 main .section-4{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    width: 50%; 
+    gap: 3rem;
+    width: 30%; 
+}
+main .section-4 img{
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
 }
 main .section-4 div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-}
-main .section-4 img{
-    border-radius: 2rem;
-    margin-bottom: 1.5rem;
+    align-items: center; 
 }
 main .section-4 .top{
     text-align: center;
@@ -300,22 +303,19 @@ main .section-4 .text{
 
 
 
-/* section 5 */
+/* Main-content: section 5 */
 
 
 main .section-5{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
     background-color: rgb(255, 203, 126);
-    width: 55%;
-    padding: 5rem ;
-    height:10rem ;
+    padding: 5rem;
     border-radius: 2rem;
-    gap: 10rem;
-    margin-bottom: 5rem;
-
+    gap: 35rem;
+    margin-bottom: 6rem;
 }
 main .section-5 p{
     font-size: 2rem;
@@ -341,9 +341,82 @@ main .section-5 a{
     color: black;
     font-size: 1rem;
     font-weight: bold;
-
 }
 
 
+/* Main-content: section 6 */
 
 
+main .section-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+main .section-6 .sec-6-head{
+    color: white;
+    font-size: 4rem;
+    margin: 3rem;
+}
+main .section-6 .tabs{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+main .section-6 .sec-6-tab{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+    margin: 3rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius:3rem ;
+    border-bottom-right-radius:3rem ;
+    font-size: 2rem;
+}
+main .section-6 .sec-6-tab-aside{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+main .section-6 .sec-6-tab-aside .img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+
+/* footer */
+
+
+footer div{
+    display: flex;
+    gap: 20rem;
+}
+footer .img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+footer .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 50%;
+}
