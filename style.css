@@ -442,6 +442,9 @@ footer .img{
     body{
         display: flex;
         flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
     }
     header{
         background-color: var(--HEADER-BGCOLOR);
