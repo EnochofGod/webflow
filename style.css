@@ -25,7 +25,7 @@ header{
     align-items: center;
     flex-direction: row;
     margin-top: 1.5rem;
-    margin-left: 25rem;
+    /* margin-left: 20rem; */
     margin-bottom: 5rem;
     gap: 18rem; 
 }
@@ -425,9 +425,14 @@ footer .img{
     border-radius: 50%;
 }
 
-@media screen and (max-width:576px) {
+
+
+
+
+
+@media screen and (min-width:576px) {
     :root{
-        --HEADER-BGCOLOR: hsl(0, 0%, 49%);
+        --HEADER-BGCOLOR: hsl(0, 0%, 85%);
         --HEADER-COLOR: whitesmoke; 
     }
     html{
@@ -435,19 +440,14 @@ footer .img{
         font-family: sans-serif;
     }
     body{
-        min-height:100vh;
         display: flex;
         flex-flow: column nowrap;
     }
     header{
         background-color: var(--HEADER-BGCOLOR);
-        color: var(--HEADER-COLOR);
-    }
-    .header-title-line{
-        padding: 0.25rem 0.5rem;
         display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
+        padding: 2rem;
+        border-radius: 3rem ;
     }
     .menu-button{
         background-color: transparent;
@@ -520,23 +520,93 @@ footer .img{
         flex-flow: column nowrap;
     }
     nav li{
+        margin: 2rem;
         padding: 0.5rem;
-        border-top:1px solid var(--HEADER-COLOR);
+        border-top:1px solid rgb(255, 203, 126);
     }
     nav a{
         display: block;
         text-align: center;
-        width: 50%;
+        width: 80%;
         margin: auto;
+        color: black;
     }
     nav a:any-link{
-        color: var(--HEADER-COLOR);
-        font-weight: bold;
         text-decoration: none;
+        font-size: 2rem;
     }
     nav a:hover,
     nav a:focus{
+        display:block;
         transform: scale(1.2);
         transition: all 0.3s;
+    }
+    main .section-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.3rem;
+        margin: 3rem; 
+        margin-bottom: 12rem; 
+    }
+    main .section-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 6rem;
+        background-color: rgb(219, 219, 219);
+        padding: 3rem;
+        border-radius: 4rem;
+        padding: 5rem;
+    }
+    .recent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+    main .section-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+    main .section-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        width: 30%; 
+    }
+    main .section-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6rem;
+        background-color: rgb(255, 203, 126);
+        padding: 5rem;
+        border-radius: 2rem;
+        gap: 3rem;
+        margin-bottom: 6rem;
+    }
+    main .section-6 .tabs{
+        display: flex;
+        gap: 0rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    footer div{
+        display: flex;
+        place-content: center;
+        gap: 5rem;
     }
 }
