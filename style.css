@@ -430,7 +430,7 @@ footer .img{
 
 
 
-@media screen and (min-width:576px) {
+@media screen and (max-width:576px) {
     :root{
         --HEADER-BGCOLOR: hsl(0, 0%, 85%);
         --HEADER-COLOR: whitesmoke; 
