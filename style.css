@@ -444,7 +444,7 @@ footer .img{
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        width: 70%;
+        width: 60%;
     }
     header{
         background-color: var(--HEADER-BGCOLOR);
@@ -551,6 +551,7 @@ footer .img{
         gap: 2.3rem;
         margin: 3rem; 
         margin-bottom: 12rem; 
+        width:50%
     }
     main .section-2{
         display: flex;
@@ -562,6 +563,7 @@ footer .img{
         padding: 3rem;
         border-radius: 4rem;
         padding: 5rem;
+        width:50%
     }
     .recent{
         display: flex;
@@ -570,6 +572,7 @@ footer .img{
         flex-direction: column;
         gap: 3rem;
         margin-top: 3rem;
+        width:50%
     }
     main .section-3{
         display: flex;
@@ -578,6 +581,7 @@ footer .img{
         flex-direction: column;
         gap: 3rem;
         margin-top: 3rem;
+        width:50%
     }
     main .section-4{
         display: flex;
@@ -586,6 +590,9 @@ footer .img{
         flex-direction: column;
         gap: 3rem;
         width: 30%; 
+    }
+    .logo-img{
+        width:50%
     }
     main .section-5{
         display: flex;
@@ -598,6 +605,7 @@ footer .img{
         border-radius: 2rem;
         gap: 3rem;
         margin-bottom: 6rem;
+        width:50%
     }
     main .section-6 .tabs{
         display: flex;
@@ -606,10 +614,12 @@ footer .img{
         align-items: center;
         flex-direction: column;
         margin-bottom: 5rem;
+        width:50%
     }
     footer div{
         display: flex;
         place-content: center;
-        gap: 5rem;
+        gap: 3rem;
+        width:50%
     }
 }
